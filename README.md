@@ -4,27 +4,16 @@
 
 ## Build Setup
 
+Ver se o node esta baixado
+node -v
 ``` bash
 # install dependencies
+npm install --global vue-cli
 npm install
 
-# serve with hot reload at localhost:8080
+#ir para o diretorio do arquivo
+cd (local do arquivo)
+
+#executar o codigo
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
